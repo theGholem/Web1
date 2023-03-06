@@ -1,0 +1,55 @@
+body
+{
+    background-color: rgb(78, 57, 57);
+}
+
+#title1 
+{
+    width: 800px;
+    margin: 0 auto;
+    background-color: red;
+    text-align: center;
+}
+
+#infoPerson
+{
+    background-color:rgb(201, 182, 175);
+    text-align: center;
+    
+}
+
+h1 
+{
+    color: darkblue
+}
+
+#btn0
+{
+    width: 300px;
+    background-color: darkkhaki;
+}
+
+#btn1
+{
+    width: 100px;
+    background-color: chocolate;
+    text-align:center;
+}
+
+#btn2
+{
+    width: 100px;
+    background-color:cornflowerblue;
+}
+
+#btn3
+{
+    width: 300px;
+    background-color: chartreuse;
+}
+
+#btn4
+{
+    width: 100px;
+    background-color: yellowgreen;
+}

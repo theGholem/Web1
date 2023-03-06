@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>oemPageWithJS</title>
+    <link rel="stylesheet" href="test.css">
+    <script src="test.js"></script>
+</head>
+
+<body>
+
+    <div id="title1">
+        <h1>BIENVENU SUR NOTRE PAGE WEB !</h1>
+    </div>
+
+    <div id="infoPerson">
+        <button title="Affichera votre nom et votre age" id="btn0" onclick="alert(IdPerson(name,old))"><strong>Presentez vous ici svp !</strong></button>
+        <br><hr><button title="Information relative au developpeur" id="btn1" onclick="alert('Bonjour, \nJe suis oem et jai crée ce site')"><strong>Qui je suis ?</strong></button>
+        <br><hr><button title="Vous serez authentifier grace à votre age" id="btn2" onclick="alert(idAuthentificator(IdPerson))"> Authentification </button>
+        <br><hr><button title="vous pouvez ici calculer aisément vos moyennes" id="btn3"onclick="alert('Moyenne : '+sumElementTab(n,sum,moy)+'\nDecision : '+testAdmit(moy) )">VerificateurMoyen</button>
+        <br><hr><button title="on veut verifier si vous etes un robot ou pas. Soyez sur de ne pas l'etre avant de clicker" id="btn4"onclick="alert(testNumber(n1,n2))"> etes vous un robot</button>
+    </div>
+
+</body>
+
+</html>
